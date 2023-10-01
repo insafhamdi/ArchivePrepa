@@ -139,7 +139,7 @@ a:hover {
   h1 {
     font-family: 'Playfair Display', serif; /* Police Playfair Display */
     font-size: 36px; /* Taille de la police */
-    color: rgb(32, 141, 218); /* Couleur du titre */
+    color: rgb(41, 182, 217); /* Couleur du titre */
     text-align: center; /* Centrer le titre */
     margin-top: 20px; /* Espacement au-dessus du titre */
     margin-bottom: 20px; /* Espacement en dessous du titre */
@@ -2138,7 +2138,7 @@ p:last-child {
 .footer-area {
 	position: relative;
 	z-index: 1;
-	background-color: #0e1326;
+	background-color: #1F93B0;
 }
 .footer-logo {
     margin-bottom: 20px;
@@ -2337,7 +2337,7 @@ p:last-child {
 .copyright-area {
 	padding: 5px 0;
 	border-top: 1px solid rgb(255, 255, 255, 0.3);
-	background-color: #0e1326;
+	background-color: #1F93B0;
 }
 
 .copyright-area p {
