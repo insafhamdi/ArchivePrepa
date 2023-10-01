@@ -98,6 +98,7 @@ dl, ol, ul {
   }
 
 .section-padding {
+	padding-top: 2px;
 	padding-bottom: 10px;
 }
 
