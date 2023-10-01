@@ -28,76 +28,9 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 	<title>Algèbre</title>
-<style>
-
-  
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  .section h2 {
-    margin-top: 0;
-    cursor: pointer;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(41, 182, 217);
-  }
-  .item {
-    margin-bottom: 5px;
-    display: none;
-  }
-  .slide1 a {
-    color: rgb(70, 84, 106); /* Remplacez YourColorHere par le code de couleur que vous souhaitez */
-  }
-  .slide1 a {
-    color: rgb(99, 116, 130); /* Remplacez YourColorHere par le code de couleur que vous souhaitez */
-    font-family: Arial, sans-serif; /* Changer la police du texte */
-    font-weight: bold; /* Mettre le texte en gras */
-  }
-  h1 {
-    font-family: 'Playfair Display', serif; /* Police Playfair Display */
-    font-size: 36px; /* Taille de la police */
-    color: rgb(32, 141, 218); /* Couleur du titre */
-    text-align: center; /* Centrer le titre */
-    margin-top: 20px; /* Espacement au-dessus du titre */
-    margin-bottom: 20px; /* Espacement en dessous du titre */
-  }
-
- /* Appliquez la couleur du texte personnalisée */
- .slide1 a {
-    color: rgb(99, 116, 130); /* Couleur du texte */
-    font-family: Arial, sans-serif; /* Changer la police du texte */
-    font-weight: bold; /* Mettre le texte en gras */
-    text-decoration: none; /* Enlever le soulignement du lien */
-    position: relative;
-  }
-
-  /* Style du point devant le lien */
-  .slide1 a::before {
-    content: "\2022"; /* Utilisation du caractère unicode du point (•) */
-    color: rgb(32, 141, 218); /* Couleur du point */
-    position: absolute;
-    left: -15px; /* Ajustement de la position du point */
-  }
-  
-</style>
-<script>
-  function toggleItems(sectionId) {
-    var items = document.querySelectorAll(sectionId + " .item");
-    items.forEach(function(item) {
-      item.style.display = item.style.display === "none" ? "block" : "none";
-    });
-  }
-</script>
 </head>
 
 <body>
-	<style>
-		.section-title h2 {
-			font-weight: bold; /* Pour mettre en gras */
-			font-family: 'Times New Roman', Times, serif; /* Remplacez "Nom de la police" par la police souhaitée */
-			color: goldenrod; /* Changer la couleur en doré (vous pouvez utiliser une autre valeur de couleur) */
-		}
-	</style>
 	
     <!-- Start Preloader Area -->
     
@@ -241,22 +174,23 @@
                         <a class="footer-logo" href="#">
                             <img src="assets/img/logobb.png" class="white-logo" alt="logo">
                         </a>
-
-                        <ul class="footer-social">
-                            <li>
-                                <a href="https://www.facebook.com/skander.karoui"> <i
-                                        class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-
-
-
-                            <li>
-                                <a href="https://www.linkedin.com/in/skander-karoui-029957251/"> <i
-                                        class="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
+                        <!--
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="https://www.facebook.com/skander.karoui"> <i
+                                            class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+    
+    
+    
+                                <li>
+                                    <a href="https://www.linkedin.com/in/skander-karoui-029957251/"> <i
+                                            class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        -->
                     </div>
                 </div>
 
@@ -266,34 +200,30 @@
                             <h3>Liens rapides</h3>
                         </div>
                         <ul class="footer-quick-links">
+                            <li><a href="index.html">Accueil</a></li>
                             <li><a href="about.html">À propos de nous</a></li>
                             <li><a href="contact.html">Contactez-nous</a></li>
-                            <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
-                            <li><a href="terms-condition.html">Conditions générales d'utilisation</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <div class="footer-heading">
-                            <h3>Informations de contact</h3>
-                        </div>
-
-                        <div class="footer-info-contact">
-                            <span><strong>Email:</strong> <a href="skander.karoui@archiveprepa.tn ">skander.karoui@archiveprepa.tn </a></span>
-                        </div>
-                        <div class="footer-info-contact">
-                            <span><strong>Adresse:</strong> Tunisie, Bizerte</span>
-                        </div>
-                        <!-- Start Subscribe Area -->
-                        <form class="newsletter-form">
-                            <input type="email" class="input-newsletter" placeholder="Entrez votre adresse e-mail" name="EMAIL" required
-                                autocomplete="off">
-                            <button class="default-btn" type="submit">S'abonner <span></span></button>
-                        </form>
-                        <!-- End Subscribe Area -->
+                <!--
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="footer-heading">
+                                <h3>Informations de contact</h3>
+                            </div>
+    
+                            <div class="footer-info-contact">
+                                <span><strong>Email:</strong> <a href="skander.karoui@archiveprepa.tn ">skander.karoui@archiveprepa.tn </a></span>
+                            </div>
+                                <form class="newsletter-form">
+                                    <input type="email" class="input-newsletter" placeholder="Entrez votre adresse e-mail" name="EMAIL" required
+                                        autocomplete="off">
+                                    <button class="default-btn" type="submit">S'abonner <span></span></button>
+                                </form>
+                            </div>
                     </div>
-                </div>
+                -->
             </div>
         </div>
     </section>
