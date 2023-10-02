@@ -65,3 +65,55 @@ body {
 .panel ul li a:hover {
     color: #007bff;
 }
+.slide1 li {
+    margin-top: 10px; 
+}
+
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    margin-top: 0;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(41, 182, 217);
+  }
+  .item {
+    margin-bottom: 5px;
+    display: none;
+  }
+  .slide1 a {
+    color: rgb(70, 84, 106); /* Remplacez YourColorHere par le code de couleur que vous souhaitez */
+  }
+  .slide1 a {
+    color: rgb(99, 116, 130); /* Remplacez YourColorHere par le code de couleur que vous souhaitez */
+    font-family: Arial, sans-serif; /* Changer la police du texte */
+    font-weight: bold; /* Mettre le texte en gras */
+  }
+  h1 {
+    font-family: 'Playfair Display', serif; /* Police Playfair Display */
+    font-size: 36px; /* Taille de la police */
+    color: rgb(32, 141, 218); /* Couleur du titre */
+    text-align: center; /* Centrer le titre */
+    margin-top: 20px; /* Espacement au-dessus du titre */
+    margin-bottom: 20px; /* Espacement en dessous du titre */
+  }
+
+ /* Appliquez la couleur du texte personnalisée */
+ .slide1 a {
+    color: rgb(99, 116, 130); /* Couleur du texte */
+    font-family: Arial, sans-serif; /* Changer la police du texte */
+    font-weight: bold; /* Mettre le texte en gras */
+    text-decoration: none; /* Enlever le soulignement du lien */
+    position: relative;
+  }
+
+  /* Style du point devant le lien */
+  .slide1 a::before {
+    content: "\2022"; /* Utilisation du caractère unicode du point (•) */
+    color: rgb(32, 141, 218); /* Couleur du point */
+    position: absolute;
+    left: -15px; /* Ajustement de la position du point */
+  }
